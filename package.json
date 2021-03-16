@@ -1,0 +1,24 @@
+{
+  "name": "vol",
+  "version": "0.0.1",
+  "description": "A Ghost theme",
+  "license": "MIT",
+  "engines": {
+    "ghost": ">=4.0.0",
+    "ghost-api": "v4"
+  },
+  "scripts": {
+    "test": "gscan ."
+  },
+  "keywords": [
+    "ghost",
+    "theme",
+    "ghost-theme"
+  ],
+  "author": {
+    "name": "Randall Pace",
+    "email": "rndll@hey.com",
+    "url": "https://rndll.io"
+  },
+  "devDependencies": {}
+}
