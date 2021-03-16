@@ -8,6 +8,7 @@
     "ghost-api": "v4"
   },
   "scripts": {
+    "build": "postcss assets/css/screen.css -o assets/built/screen.css",
     "test": "gscan ."
   },
   "keywords": [
@@ -20,5 +21,10 @@
     "email": "rndll@hey.com",
     "url": "https://rndll.io"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
+  }
 }
