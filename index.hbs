@@ -1,7 +1,12 @@
 {{!< default}}
 
-<main>
+<main class="prose">
+  <h2>Articles</h2>
+  <ul>
   {{#foreach posts}}
-    <div>{{title}}</div>
+    <li>
+      <a href="{{url}}" class="no-underline">{{title}}</a>
+    </li>
   {{/foreach}}
+  </ul>
 </main>

@@ -1,0 +1,13 @@
+{{#if isSecondary}}
+  <ul class="flex flex-wrap leading-loose text-xs sm:justify-center">
+    {{#foreach navigation}}
+    <li class="mr-4 nav-{{slug}}">
+      <a href="{{url}}" class="underline text-gray-500">{{label}}</a>
+    </li>
+    {{/foreach}}
+  </ul>
+{{else}}
+  {{#foreach navigation}}
+  <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}" class="py-px px-1 no-underline text-gray-900 font-medium">{{label}}</a></li>
+  {{/foreach}}
+{{/if}}
